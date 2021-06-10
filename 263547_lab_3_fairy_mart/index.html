@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="shortcut icon" type="image" href="images/fairy_mart_logo.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/sty.css">
+</head>
+
+<body>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="html/about_us.html" >About Us <i class="fa fa-info-circle"></i></a>
+		<a href="html/contact_us.html" >Contact Us <i class="fa fa-phone-square"></i></a>
+	</div>
+
+	<div class="header">
+		<img src="images/fairy_mart_logo.png" />
+		<h1>Fairy Mart</h1>
+		<p>We help you in your diet &#128512; </p>
+	</div>
+
+	<div class="navbar">
+		<a href="html/login.html" class="right">Log In <i class="fa fa-sign-in"></i></a>
+		<a href="html/register.html" class="right">Register <i class="fa fa-user-plus"></i></a>
+		<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+		<script>
+			function openNav() {
+				document.getElementById("mySidenav").style.width = "250px";
+			}
+
+			function closeNav() {
+				document.getElementById("mySidenav").style.width = "0";
+			}
+		</script>
+	</div>
+
+	<h3>Product Type</h3>
+	<div class="row">
+		<div class="column">
+			<div class="card">
+				<img src="images/apples and pears.png" alt="Apples and Pears" style="width:100%">
+				<h2>Apples and Pears</h2>
+			</div>
+		</div>
+		<div class="column">
+			<div class="card">
+				<img src="images/citrus.png" alt="Citrus" style="width:100%">
+				<h2>Citrus</h2>
+			</div>
+		</div>
+		<div class="column">
+			<div class="card">
+				<img src="images/stone fruit.png" alt="Stone Fruit" style="width:100%">
+				<h2>Stone Fruit</h2>
+			</div>
+		</div>
+		<div class="column">
+			<div class="card">
+				<img src="images/tropical and exotic.png" alt="Tropical and Exotic" style="width:100%">
+				<h2>Tropical and Exotic</h2>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	
+	<div class="row">
+		<div class="column">
+			<div class="card">
+				<img src="images/berries.png" alt="Berries" style="width:100%">
+				<h2>Berries</h2>
+			</div>
+		</div>
+		<div class="column">
+			<div class="card">
+				<img src="images/melons.png" alt="Melons" style="width:100%">
+				<h2>Melons</h2>
+			</div>
+		</div>
+		<div class="column">
+			<div class="card">
+				<img src="images/tomatoes and avocados.png" alt="Tomatoes and Avocados" style="width:100%">
+				<h2>Tomatoes and Avocados</h2>
+			</div>
+		</div>
+	<br>
+	<br>
+
+	<div class="footer">
+		<footer>&copy; Copyright 2021 Fairy Mart. Design By Angela</footer>
+	</div>
+</div>
+
+</body>
+
+</html>
